@@ -12,7 +12,6 @@ export default function App() {
 
   const handleUpload = () => {
     photoRef.current?.click();
-    setShowMenu(false);
   };
 
   const setBGImg = (e: React.ChangeEvent<HTMLInputElement>) => {
