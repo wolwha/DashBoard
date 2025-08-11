@@ -22,7 +22,7 @@ export default function App() {
             {time.getDate().toString().padStart(2, "0")}일
           </p>
         </div>
-        <button className="bg-gray-300/20 z-10 absolute right-[20px] top-[20px] size-[40px] flex justify-center items-center text-[50px] rounded-[5px] cursor-pointer shadow-2xl">
+        <button className="bg-gray-300/20 z-10 absolute right-[20px] top-[20px] size-[40px] flex justify-center items-center text-[50px] rounded-[5px] cursor-pointer shadow-2xl backdrop-blur-sm">
           <CgMenuGridR />
         </button>
         <img
